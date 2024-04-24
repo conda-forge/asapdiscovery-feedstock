@@ -136,9 +136,10 @@ about:
 
 extra:
   recipe-maintainers:
-    - kaminow
     - hmacdope
     - jthorton
     - JenkeScheen
     - mikemhenry
     - ijpulidos
+    - kaminow
+    - apayne97
