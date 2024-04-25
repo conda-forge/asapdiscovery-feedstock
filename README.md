@@ -61,6 +61,20 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/asapdiscovery-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpython" alt="variant">
                 </a>
               </td>
+            </tr><tr>
+              <td>osx_arm64_python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=22158&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/asapdiscovery-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=22158&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/asapdiscovery-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpython" alt="variant">
+                </a>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -191,8 +205,10 @@ Feedstock Maintainers
 =====================
 
 * [@JenkeScheen](https://github.com/JenkeScheen/)
+* [@apayne97](https://github.com/apayne97/)
 * [@hmacdope](https://github.com/hmacdope/)
 * [@ijpulidos](https://github.com/ijpulidos/)
 * [@jthorton](https://github.com/jthorton/)
+* [@kaminow](https://github.com/kaminow/)
 * [@mikemhenry](https://github.com/mikemhenry/)
 
