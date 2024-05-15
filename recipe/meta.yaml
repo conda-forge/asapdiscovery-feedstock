@@ -1,5 +1,5 @@
 {% set name = "asapdiscovery" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://github.com/choderalab/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 5f4cb2e0f01823459ee5dd2f7b9f94b3dfa259dfc42b03bbc0146ef9b7e8988a
+  sha256: 3032354b93d54401782e2a4bf1429806d6ffdfe7898082aa4beec483025c34b3
 
 build:
   skip: true  # [py>311]
   skip: true  # [py<310]
   skip: true  # [win]
-  number: 1
+  number: 0
 
 
 requirements:
@@ -97,7 +97,7 @@ requirements:
     - kartograf
     - rich
     - alchemiscale-client
-    - cinnabar >=0.4.1 
+    - cinnabar >=0.4.1
 
     # testing
     - pytest
