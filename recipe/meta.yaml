@@ -1,5 +1,5 @@
 {% set name = "asapdiscovery" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/choderalab/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 3032354b93d54401782e2a4bf1429806d6ffdfe7898082aa4beec483025c34b3
+  sha256: e926ba904661c061df6774c9dbf489ce921607516dfdc84a6d721d3a1764788e
 
 build:
   skip: true  # [py>311]
