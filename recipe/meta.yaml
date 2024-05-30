@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/choderalab/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
+  url: https://github.com/asapdiscovery/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
   sha256: e926ba904661c061df6774c9dbf489ce921607516dfdc84a6d721d3a1764788e
 
 build:
