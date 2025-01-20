@@ -7,5 +7,5 @@ ${PYTHON} -m pip install . --no-deps -vv ./asapdiscovery-dataviz
 ${PYTHON} -m pip install . --no-deps -vv ./asapdiscovery-docking
 ${PYTHON} -m pip install . --no-deps -vv ./asapdiscovery-ml
 ${PYTHON} -m pip install . --no-deps -vv ./asapdiscovery-alchemy
-${PYTHON} -m pip install . --no-deps -vv ./asapdiscovery-genetics
+${PYTHON} -m pip install . --no-deps -vv ./asapdiscovery-spectrum
 ${PYTHON} -m pip install . --no-deps -vv ./asapdiscovery-workflows
