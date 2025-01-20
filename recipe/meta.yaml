@@ -119,7 +119,7 @@ test:
     - asapdiscovery.cli
     - asapdiscovery.data
     - asapdiscovery.dataviz
-    - asapdiscovery.genetics
+    - asapdiscovery.spectrum
     - asapdiscovery.ml
     - asapdiscovery.modeling
     - asapdiscovery.simulation
