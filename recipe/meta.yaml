@@ -90,7 +90,7 @@ requirements:
     - logomaker
 
     # simulation
-    - openfe =>0.14.0
+    - openfe =>1.1.0
     - gufe =>0.9.5
     - httpx
     - perses >=0.10.2
