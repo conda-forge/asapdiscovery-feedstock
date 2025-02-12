@@ -22,8 +22,9 @@ requirements:
     - cross-python_{{ target_platform }}  # [build_platform != target_platform]
 
   host:
-    - python
     - pip
+    - python
+    - setuptools
     - versioningit
 
   run:
