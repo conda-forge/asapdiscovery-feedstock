@@ -92,7 +92,7 @@ requirements:
 
     # simulation
     - openfe =>1.1.0
-    - gufe =>0.9.5, <1.3.0
+    - gufe <1.3.0
     - httpx
     - perses >=0.10.2
     - kartograf
