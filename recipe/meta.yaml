@@ -1,5 +1,5 @@
 {% set name = "asapdiscovery" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://github.com/asapdiscovery/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 9013d154f9b463f750b3e1a5978d14e4227acec01256f9287671ec5628ecf51d
+  sha256: 6363b84f06f5f36063c499d786f31574bc220662f0f4957c905eff5bfb51751d
 
 build:
   skip: true  # [py>311]
   skip: true  # [py<310]
   skip: true  # [win]
-  number: 2
+  number: 0
 
 
 requirements:
